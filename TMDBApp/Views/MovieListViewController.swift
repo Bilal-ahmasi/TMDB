@@ -39,6 +39,7 @@ class MovieListViewController: UIViewController {
     }
 
     private func setupUI() {
+        navigationController?.navigationBar.titleTextAttributes = [ .foregroundColor: UIColor.black ]
         title = "Popular Movies"
         view.backgroundColor = .white
         view.addSubview(tableView)
